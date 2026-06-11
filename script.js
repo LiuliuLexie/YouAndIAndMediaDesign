@@ -1,4 +1,4 @@
-const SUPABASE_URL = "sb_publishable_UzFATdJxD4eMzaxYgdGjyg_8zmnzdD_";
+const SUPABASE_URL = "https://bgbsqxfbdcvbqtnoigtp.supabase.co";
 const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJnYnNxeGZiZGN2YnF0bm9pZ3RwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODExODE4NDIsImV4cCI6MjA5Njc1Nzg0Mn0.EGpD0mgYDrfNvPeVhDLPK6iKGxMHQdVRnQC5tXT49_g";
 
 const db = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
