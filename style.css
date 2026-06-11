@@ -5,8 +5,8 @@
 body {
   margin: 0;
   overflow: hidden;
-  background: #f6f6f2;
-  color: #111;
+  background: #ffffff;
+  color: #0f0f0f;
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -19,24 +19,31 @@ body {
 
 #title {
   position: fixed;
-  top: 28px;
-  left: 32px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
   z-index: 10;
-  max-width: 360px;
+
+  text-align: center;
   pointer-events: none;
 }
 
 #title h1 {
-  margin: 0 0 8px;
-  font-size: 22px;
-  font-weight: 500;
-  letter-spacing: -0.03em;
+  margin: 0;
+
+  font-size: 48px; /* 原来22px，约2倍 */
+  font-weight: 800;
+
+  letter-spacing: -0.04em;
+  line-height: 1;
 }
 
 #title p {
-  margin: 0;
-  font-size: 13px;
-  opacity: 0.55;
+  margin-top: 12px;
+
+  font-size: 14px;
+  opacity: 0.6;
 }
 
 #entryForm {
@@ -51,7 +58,7 @@ body {
 #entryInput {
   width: 100%;
   border: 1px solid #111;
-  background: rgba(246, 246, 242, 0.75);
+  background: rgba(91, 247, 255, 0.75);
   backdrop-filter: blur(10px);
   padding: 14px 18px;
   border-radius: 999px;
@@ -89,7 +96,7 @@ body {
   max-width: 260px;
   padding: 6px 9px;
   border: 1px solid #111;
-  background: #f6f6f2;
+  background: #ffffff;
   font-size: 11px;
   line-height: 1.2;
   opacity: 0;
