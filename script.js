@@ -43,7 +43,7 @@ function randomEntryData(text) {
     text,
     x: Math.random() * 80 + 5,
     y: Math.random() * 70 + 8,
-    size: Math.random() * 28 + 14,
+    size: Math.random() * 20 + 14,
     speed: Math.random() * 8 + 5
   };
 }
